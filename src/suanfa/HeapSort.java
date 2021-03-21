@@ -3,6 +3,13 @@ package suanfa;
 堆排  最小堆  不稳定
  */
 public class HeapSort {
+    static int n;
+
+    public HeapSort(){}
+    public HeapSort(int n){
+        this.n=n;
+    }
+
 
     public static void swap(int h[],int x,int y){
         int t=h[x];
@@ -10,7 +17,7 @@ public class HeapSort {
         h[y]=t;
 
     }
-    public static void siftDown(int h[],int n,int i){
+    public static void siftDown(int h[],int i){
         int t,flag=0;
         while(i*2 <= n && flag==0){
             //判断与左儿子大小
@@ -37,18 +44,18 @@ public class HeapSort {
 
     }
     //创建堆
-    public static void create(int h[], int n){
+    public static void create(int h[]){
         for(int i=n/2;i>=1;i--){
-            siftDown(h,n,i);
+            siftDown(h,i);
         }
 
     }
     //取出堆顶元素并删除
-    public static int deleteMax(int h[],int n) {
+    public static int deleteMax(int h[]) {
         int t = h[1];
         h[1] = h[n];
         n--;
-        siftDown(h, n, 1);
+        siftDown(h, 1);
         return t;
     }
 

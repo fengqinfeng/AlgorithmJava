@@ -42,11 +42,13 @@ public class Main {
         /*
         堆排序
          */
-        int temp[]={-1,1,6,4,5};
-        HeapSort.create(temp, temp.length-1);
+        int temp[]={-1,1,7,9,2,3,5,4};
+        HeapSort t=new HeapSort(temp.length-1);
+
+        HeapSort.create(temp);
 
         for(int i=1;i<=temp.length-1;i++){
-            System.out.printf("%d ",HeapSort.deleteMax(temp,temp.length-1));
+            System.out.printf("%d ",HeapSort.deleteMax(temp));
         }
 
 
