@@ -1,6 +1,6 @@
 package suanfa;
 /*
-堆排  最小堆  不稳定
+堆排  小顶堆  不稳定
  */
 public class HeapSort {
     static int n;
