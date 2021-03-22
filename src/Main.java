@@ -3,6 +3,7 @@ import suanfa.BubbleSort;
 import suanfa.HeapSort;
 import suanfa.QuickSort;
 import suanfa.Te;
+import sun.net.www.HeaderParser;
 
 import static suanfa.QuickSort.quickSort;
 
@@ -43,13 +44,9 @@ public class Main {
         堆排序
          */
         int temp[]={-1,1,7,9,2,3,5,4};
-        HeapSort t=new HeapSort(temp.length-1);
+        HeapSort t=new HeapSort(temp,temp.length-1);
+        t.heapSort();
 
-        HeapSort.create(temp);
-
-        for(int i=1;i<=temp.length-1;i++){
-            System.out.printf("%d ",HeapSort.deleteMax(temp));
-        }
 
 
 
