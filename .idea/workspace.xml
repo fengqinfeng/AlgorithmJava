@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="83ab97a6-b64d-4827-a2b5-d7adf2a3acaf" name="Default Changelist" comment="2021/3/21 堆排序 修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616318464271" />
@@ -120,6 +124,8 @@
       <workItem from="1616330432137" duration="3403000" />
       <workItem from="1616344735045" duration="1648000" />
       <workItem from="1616346510363" duration="235000" />
+      <workItem from="1616347582676" duration="49000" />
+      <workItem from="1616378627699" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="备份">
       <created>1616317684299</created>
