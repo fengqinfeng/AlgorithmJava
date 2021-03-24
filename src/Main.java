@@ -1,8 +1,5 @@
 import com.sun.xml.internal.bind.v2.model.annotation.Quick;
-import suanfa.BubbleSort;
-import suanfa.HeapSort;
-import suanfa.QuickSort;
-import suanfa.Te;
+import suanfa.*;
 import sun.net.www.HeaderParser;
 
 import static suanfa.QuickSort.quickSort;
@@ -44,9 +41,17 @@ public class Main {
         堆排序
          */
         int temp[]={-1,1,7,9,2,3,5,4};
-        HeapSort t=new HeapSort(temp,temp.length-1);
-        t.heapSort();
+//        HeapSort t=new HeapSort(temp,temp.length-1);
+//        t.heapSort();
 
+//        HeapSortTwo t=new HeapSortTwo(temp,temp.length-1);
+//        t.heapSort();
+//        for(int i=1;i<=temp.length-1;i++){
+//            System.out.print(temp[i]+ " ");
+//        }
+        //堆  计算第几大的数字
+        MaxThird t=new MaxThird(temp,temp.length-1,3);
+        System.out.println(t.heapSort());
 
 
 
