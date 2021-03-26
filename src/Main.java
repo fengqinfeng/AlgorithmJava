@@ -40,7 +40,7 @@ public class Main {
         /*
         堆排序
          */
-        int temp[]={-1,1,7,9,2,3,5,4};
+//        int temp[]={-1,1,7,9,2,3,5,4};
 //        HeapSort t=new HeapSort(temp,temp.length-1);
 //        t.heapSort();
 
@@ -50,10 +50,18 @@ public class Main {
 //            System.out.print(temp[i]+ " ");
 //        }
         //堆  计算第几大的数字
-        MaxThird t=new MaxThird(temp,temp.length-1,3);
-        System.out.println(t.heapSort());
+//        MaxThird t=new MaxThird(temp,temp.length-1,3);
+//        System.out.println(t.heapSort());
 
-
+        /*
+        测试并查集
+         */
+        BingChaJi temp=new BingChaJi(10);
+        temp.merge(1,2);
+        temp.merge(3,4);
+        temp.merge(5,6);
+        temp.merge(7,8);
+        System.out.println( temp.gerResult());
 
     }
 }

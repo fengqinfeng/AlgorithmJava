@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ab97a6-b64d-4827-a2b5-d7adf2a3acaf" name="Default Changelist" comment="2021/3/22 修改">
-      <change afterPath="$PROJECT_DIR$/src/suanfa/HeapSortTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/suanfa/MaxThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/suanfa/BingChaJi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmJava/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmJava/suanfa/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmJava/suanfa/HeapSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,7 +140,8 @@
       <workItem from="1616347582676" duration="49000" />
       <workItem from="1616378627699" duration="6555000" />
       <workItem from="1616478618681" duration="1389000" />
-      <workItem from="1616599320430" duration="3754000" />
+      <workItem from="1616599320430" duration="4315000" />
+      <workItem from="1616742350144" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="备份">
       <created>1616317684299</created>
