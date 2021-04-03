@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ab97a6-b64d-4827-a2b5-d7adf2a3acaf" name="Default Changelist" comment="2021/3/22 修改">
-      <change afterPath="$PROJECT_DIR$/src/suanfa/BingChaJi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmJava/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmJava/suanfa/BingChaJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmJava/suanfa/BingChaJi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmJava/suanfa/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmJava/suanfa/Foo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/Foo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +93,20 @@
       <recent name="C:\D\idea\save\AlgorithmJava\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReCallTest">
+    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suanfa.Foo" />
+      <module name="AlgorithmJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="suanfa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AlgorithmJava" />
@@ -101,21 +117,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="ReCallTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suanfa.ReCallTest" />
+      <module name="AlgorithmJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="suanfa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReCallTest" />
+        <item itemvalue="Application.Foo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -141,7 +170,12 @@
       <workItem from="1616378627699" duration="6555000" />
       <workItem from="1616478618681" duration="1389000" />
       <workItem from="1616599320430" duration="4315000" />
-      <workItem from="1616742350144" duration="1780000" />
+      <workItem from="1616742350144" duration="2400000" />
+      <workItem from="1617101148786" duration="222000" />
+      <workItem from="1617120277524" duration="246000" />
+      <workItem from="1617122410958" duration="875000" />
+      <workItem from="1617186338745" duration="256000" />
+      <workItem from="1617439541009" duration="1222000" />
     </task>
     <task id="LOCAL-00001" summary="备份">
       <created>1616317684299</created>

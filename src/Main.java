@@ -56,12 +56,16 @@ public class Main {
         /*
         测试并查集
          */
-        BingChaJi temp=new BingChaJi(10);
-        temp.merge(1,2);
-        temp.merge(3,4);
-        temp.merge(5,6);
-        temp.merge(7,8);
-        System.out.println( temp.gerResult());
+//        BingChaJi temp=new BingChaJi(10);
+//        temp.merge(1,2);
+//        temp.merge(3,4);
+//        temp.merge(5,6);
+//        temp.merge(7,8);
+//        System.out.println( temp.gerResult());
+
+        String str=new String("test");
+        String str2="test";
+        System.out.println(str == str2);
 
     }
 }
